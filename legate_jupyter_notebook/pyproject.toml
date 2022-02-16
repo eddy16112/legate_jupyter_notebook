@@ -1,0 +1,10 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "legate_kernel"
+author = "Ben Burnett"
+requires = ["pexpect (>=4.0)", "ipykernel"]
+description-file = "README.md"
+
